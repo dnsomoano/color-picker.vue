@@ -1,6 +1,6 @@
 <template>
   <section>
-    This is a component
+    This is a componentaaaaaa
   </section>
 </template>
 
