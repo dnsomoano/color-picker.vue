@@ -1,23 +1,26 @@
 <template>
   <div id="app">
+    <header>
+      My Color Picker in Vue
+      </header>
     <ColorPicker />
   </div>
 </template>
 
 <script>
-import ColorPicker from './components/ColorPicker.vue'
+import ColorPicker from "./components/ColorPicker.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     ColorPicker
   }
-}
+};
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
