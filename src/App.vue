@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header>
+    <header class="main-header">
       My Color Picker in Vue
       </header>
     <ColorPicker />
@@ -18,7 +18,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -27,4 +27,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
